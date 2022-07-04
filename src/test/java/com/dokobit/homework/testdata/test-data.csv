@@ -1,0 +1,4 @@
+"account_number","operation_date","beneficiary","comment","amount","currency","is_withdrawal"
+"TSG54SA","2002-03-14 00:00:00","Jane Doe",,"20","EUR","false"
+"TSG54SA","2019-03-14 00:00:00","Jane Doe",,"10","USD","true"
+"JHADD54","2004-03-14 00:00:00","Joe Doe",,"10","USD","false"
