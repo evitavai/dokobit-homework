@@ -5,9 +5,9 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.List;
 
-public interface ArchiveService {
+public interface ZipService {
 
-    default void createFileZip(List<MultipartFile> files) throws IOException {
+    default void createZip(List<MultipartFile> files) throws IOException {
 
     }
 }

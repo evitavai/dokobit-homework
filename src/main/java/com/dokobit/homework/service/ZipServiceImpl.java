@@ -14,10 +14,10 @@ import java.util.zip.ZipOutputStream;
 
 @Service
 @RequiredArgsConstructor
-public class ArchiveServiceImpl implements ArchiveService {
+public class ZipServiceImpl implements ZipService {
 
     @Override
-    public void createFileZip(List<MultipartFile> files) throws IOException {
+    public void createZip(List<MultipartFile> files) throws IOException {
         for (MultipartFile file : files) {
             try (FileOutputStream fileOutputStream = new FileOutputStream("compressedFiles.zip");
                  ZipOutputStream zipOutputStream = new ZipOutputStream(fileOutputStream);
